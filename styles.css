@@ -163,7 +163,7 @@ a.social {
   margin-left: 5px;
   width: 25px;
   height: 25px;
-  opacity: .4;
+  opacity: 1;
   transition: all .5s;
 }
 a.instagram {
@@ -185,7 +185,7 @@ a.mailto {
   background-image: url(images/mail.svg);  
 }
 a.social:hover {
-  opacity: 1;
+  opacity: .4;
 }
 .clearfix {
   clear: both;
