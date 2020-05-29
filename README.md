@@ -27,6 +27,6 @@ Photos - Done (exceeds), background file size exactly 1024KB or 1MB.
 Placeholder Text - Done (exceeds).
 Valid Code - Done (no exceed option).
 
-I had a real struggle with the social link icons in the footer section. First, couldn't figure out how to add them, then they finally showed up without color, and finally the dimensions were a bit wonky on a few of them and started to repeat based on the CSS styling options. After some digging, they were all really simple fixes! Simple changes to the coding to the SVG (Viewbox and Fill) - which I hadn't clicked on the SVG icon's at any point so I had no idea that it was possible to change the coding in that fashion.
+I had a real struggle with the social link icons in the footer section. First, I couldn't figure out how to add them, then they finally showed up without color, and finally the dimensions were a bit wonky on a few of them and started to repeat based on the CSS styling options. After some digging, they were all really simple fixes! Simple changes to the coding to the SVG (Viewbox and Fill) - which I hadn't clicked on the SVG icon's at any point so I had no idea that it was possible to change the coding in that fashion.
 
-Looking forward to hearing your feedback!
+Looking forward to hearing your feedback! ;
