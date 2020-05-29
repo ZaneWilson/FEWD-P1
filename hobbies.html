@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zane's Hobbies</title>
-    <link rel="stylesheet" href="styles.css";>
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
 </head>
 <body>
     <nav class="main-nav">
         <ul class="nav">
           <li class="name">Zane A. Wilson</li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="#">Hobbies</a></li>
+          <li><a href="index.html" class="pages">Home</a></li>
+          <li><a href="experience.html" class="pages">Experience</a></li>
+          <li><a href="#" class="pages">Hobbies</a></li>
         </ul>
     </nav>
 
@@ -25,7 +25,7 @@
 
       <main class="flex">
         <section class="card">
-          <h2>Outdoor Activities</h2>
+          <h2 class="title">Outdoor Activities</h2>
           <p>These are just some of the outdoor activities that I enjoy doing:</p>
             <ul>
               <li>Basketball</li>
@@ -33,13 +33,14 @@
               <li>Pool</li>
               <li>Beach</li>
               <li>Biking</li>
-              <li>..and more!</li><br />
+              <li>..and more!</li>
             </ul>
+            <br />
             <img src="images/beach.jpg" alt="Peaceful beach" class="section-image">
         </section>
 
         <section class="card">
-          <h2>Indoor Activities</h2>
+          <h2 class="title">Indoor Activities</h2>
           <p>And here are some of the indoor activities that I enjoy doing as well:</p>
           <ul>
             <li>Cooking</li>
@@ -54,7 +55,7 @@
 
         <section class="card">
           <img src="images/handshake.jpg" alt="Handshake" class="section-image">
-          <h2>Anything in common?</h2><br />
+          <h2 class="title">Anything in common?</h2><br />
           <p>If we do, great! Follow me on Twitter or find me on LinkedIn and we can connect!</p><br />
           <p>Don't have anything in common with me? That's ok, I love meeting new people and making great 
             connections.</p><br />
@@ -63,15 +64,24 @@
   
       </main>
       <footer>
-        <ul>
-          <li><a href="https://instagram.com/zanewilsonnyc/" target="_blank" class="social instagram">Instagram</a></li>
-          <li><a href="https://facebook.com/ZWpersonal/" target="_blank" class="social facebook">Facebook</a></li>
-          <li><a href="https://twitter.com/ZaneWilsonNYC" target="_blank" class="social twitter">Twitter</a></li>
-          <li><a href="https://www.linkedin.com/in/zanewilsonnyc/" target="_blank" class="social linkedin">LinkedIn</a></li>
-          <li><a href="https://github.com/ZaneWilson" target="_blank" class="social github">Github</a></li>
-          <li><a href="mailto:wilsonzanea@gmail.com" target="_blank" class="social mailto">Email Me</a></li>
-        </ul>
-        <p class="copyright">&copy;Copyright 2020, Zane Wilson</p>
+        <nav>
+          <ul>
+            <li><a href="https://instagram.com/zanewilsonnyc/" target="_blank" class="social instagram">Instagram</a></li>
+            <li><a href="https://facebook.com/ZWpersonal/" target="_blank" class="social facebook">Facebook</a></li>
+            <li><a href="https://twitter.com/ZaneWilsonNYC" target="_blank" class="social twitter">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/zanewilsonnyc/" target="_blank" class="social linkedin">LinkedIn</a></li>
+            <li><a href="https://github.com/ZaneWilson" target="_blank" class="social github">Github</a></li>
+            <li><a href="mailto:wilsonzanea@gmail.com" target="_blank" class="social mailto">Email Me</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">&copy; 2020, Zane Wilson</p>
+        <p>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+              <img style="border:0;width:88px;height:31px"
+                  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                  alt="Valid CSS!">
+              </a>
+          </p>
       </footer> 
 </body>
 </html>

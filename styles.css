@@ -8,24 +8,28 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #ffffff;
+  color: #2b2d42;
+  background: white;
+}
+.title {
+  font-family: 'Playfair Display', serif;
+  color: #2b2d42;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #EDF2F4;
 }
 a:hover {
-  color: #6633ff;
+  color: #2B2D42;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #2B2D42;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +47,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #edf2f4;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,7 +56,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #d90429;
 }
 
 header {
@@ -70,36 +74,38 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 2px solid gray;
+  border: 2px solid #2B2D42;
   transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.4) rotate(15deg);
+  transform: scale(1.4) rotate(20deg);
 }
 .tag {
-  background-color: white;
+  background-color: #edf2f4;
   color: black;
   padding: 10px;
   border-radius: 5px;
+  border: 2px solid #2B2D42;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: white;
+  background-color: #2B2D42;
+  color: #edf2f4;
+  border: 2px solid #edf2f4;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: rgb(235, 235, 235);
-  border-bottom: 4px solid #ccc;
+  background: #edf2f4;
+  border-bottom: 4px solid #2b2d42;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #0021b6;
+  border-color: #ef233c;
 }
 .section-image {
   height: auto;
@@ -116,14 +122,18 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #8d99ae;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #d90429;
+}
+
+.skills li:hover {
+  opacity: .5;
 }
 
 footer {
