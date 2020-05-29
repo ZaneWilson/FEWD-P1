@@ -3,6 +3,8 @@
 
 Thanks for checking it out!
 
+I tested in Chrome, Firefox, and Edge.
+
 Instructions: a.k.a. - <ol> - haha
 1. Done
 2. Done
