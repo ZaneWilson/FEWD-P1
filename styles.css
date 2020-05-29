@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #ffffff;
 }
 /* Link Styles */
 
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/nyc-2.jpg') no-repeat top center ;
+  background: url('images/nyc-2.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,11 +70,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 2px solid gray;
+  transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.7) rotate(15deg);
 }
 .tag {
   background-color: white;
@@ -93,13 +93,19 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: rgb(173, 173, 173);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0021b6;
+}
+.section-image {
+  height: auto;
+  width: auto;
+  max-height: 300px;
+  max-width: 300px;
 }
 
 ul.skills {
@@ -147,9 +153,14 @@ a.social {
   margin-left: 5px;
   width: 30px;
   height: 30px;
-  background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
+}
+a.instagram {
+  background-image: url(images/instagram.svg);
+}
+a.facebook {
+  background-image: url(images/facebook.svg);
 }
 a.twitter {
   background-image: url(images/twitter.svg);
@@ -159,6 +170,9 @@ a.linkedin {
 }
 a.github {
   background-image: url(images/github.svg);
+}
+a.mailto {
+  background-image: url(images/mail.svg);  
 }
 a.social:hover {
   opacity: 1;
