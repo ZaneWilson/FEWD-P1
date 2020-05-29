@@ -3,7 +3,7 @@
 
 Thanks for checking it out!
 
-Instructions: a.k.a. - '<ol>' - haha
+Instructions: a.k.a. - <ol> - haha
 1. Done
 2. Done
 3. Done
