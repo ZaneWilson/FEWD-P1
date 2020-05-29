@@ -8,7 +8,7 @@ Instructions: a.k.a. - <ol> - haha
 2. Done
 3. Done
 4. Done
-5. Done - I used the # to return you to the top of the page rather than typing in the whole link to the same page. I felt this saved loading time and added a smoother operation when navigating amongst the tabs.
+5. Done - I used the # to return you to the top of the page rather than typing in the whole link to the same page. I felt this saved loading time and added a smoother operation when navigating amongst the pages.
 6. Done
 7. Done
 8. Done, HTML & CSS Verified ;)
